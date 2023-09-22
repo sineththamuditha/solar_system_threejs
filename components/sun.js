@@ -26,7 +26,7 @@ class sun extends celestialBody {
     innerSphere.position.set(0, 0, 0);
 
     const texture = new THREE.TextureLoader().load(
-      "./components/textures/Sun/sun_texture.jpg"
+      "./components/textures/Sun/suntexturemap.jpg"
     );
     const outerMaterial = new THREE.MeshBasicMaterial({
       map: texture,
