@@ -159,7 +159,6 @@ class App {
       this._celestialBodies.sun
         .getCelestialBody()
         .add(this._asteroidFactory.getAsteroid());
-      console.log("asteroid added");
     }
 
     this._asteroidCountDown = (this._asteroidCountDown + 1) % 100;
@@ -245,8 +244,6 @@ class App {
       this._celestialBodies[data.name] = new planet(data);
 
       this._scene.add(this._celestialBodies[data.name].getCelestialBody());
-
-      // this._celestialBodies[data.name].setOrbitPath(data);
     });
   }
 
