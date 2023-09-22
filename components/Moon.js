@@ -1,5 +1,5 @@
 import celestialBody from "./CelestialBody.js";
-import * as THREE from "../src/Three.js";
+import * as THREE from "three";
 
 class moon extends celestialBody {
   _MOTHER_PLANET_RADIUS = null;

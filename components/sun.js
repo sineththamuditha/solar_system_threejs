@@ -1,8 +1,8 @@
-import * as THREE from "../src/Three.js";
+import * as THREE from "three";
 import {
   Lensflare,
   LensflareElement,
-} from "../examples/jsm/objects/Lensflare.js";
+} from "three/examples/jsm/objects/Lensflare.js";
 import celestialBody from "./CelestialBody.js";
 
 class sun extends celestialBody {

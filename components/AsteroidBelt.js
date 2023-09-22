@@ -1,4 +1,4 @@
-import * as THREE from "../src/Three.js";
+import * as THREE from "three";
 
 class asteroidBelt {
   _ASTEROID_COUNT = null;

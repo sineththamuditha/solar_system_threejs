@@ -1,6 +1,6 @@
 import celestialBody from "./CelestialBody.js";
 import moon from "./Moon.js";
-import * as THREE from "../src/Three.js";
+import * as THREE from "three";
 
 class planet extends celestialBody {
   _SUN_RADIUS = 6.96;

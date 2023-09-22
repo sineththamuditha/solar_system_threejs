@@ -13,8 +13,8 @@ import {
   getAsteroidFactoryData,
 } from "./components/config.js";
 
-import { OrbitControls } from "./examples/jsm/controls/OrbitControls.js";
-import { OBJLoader } from "./examples/jsm/loaders/OBJLoader.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
 
 class App {
   _renderer = null;
