@@ -2,6 +2,11 @@
 
 Simulation of the solar system with all planets and their major moons. Textures are from NASA official website.
 
+  - All motions are relative to earth years
+  - Planets are in correct dimesions relative to one another
+  - Representation of asteroid belt
+  - Random asteroid motion from asteroid belt to the sun
+
 Inspired by,
 
 sanderblue --> https://github.com/sanderblue/solar-system-threejs#the-solar-system
