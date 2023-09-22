@@ -1,4 +1,4 @@
-# H1 Solar System Simulation
+# Solar System Simulation
 
 Simulation of the solar system with all planets and their major moons. Textures are from NASA official website.
 
