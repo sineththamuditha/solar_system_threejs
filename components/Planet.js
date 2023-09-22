@@ -33,7 +33,7 @@ class planet extends celestialBody {
     const planetTextureBump = data.textureBump
       ? new THREE.TextureLoader().load(data.textureBump)
       : null;
-    const planetMaterial = new THREE.MeshLambertMaterial({
+    const planetMaterial = new THREE.MeshPhongMaterial({
       map: planetTexture,
       bumpMap: planetTextureBump,
     });
