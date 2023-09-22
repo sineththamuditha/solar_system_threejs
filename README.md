@@ -8,3 +8,4 @@ sanderblue --> https://github.com/sanderblue/solar-system-threejs#the-solar-syst
   
 Daniel Shvetsov --> https://hackernoon.com/how-to-create-a-solar-system-in-javascript-with-threejs
   
+![alt text](https://github.com/sineththamuditha/solar_system_threejs/blob/main/components/screenshots/solarsystem.png?raw=true)

@@ -215,7 +215,7 @@ class App {
   }
 
   _setPointLight() {
-    const pointLight = new THREE.PointLight(0xffffff, 1, 1000, 0.01);
+    const pointLight = new THREE.PointLight(0xffffff, 2, 1000, 0.001);
     pointLight.position.set(0, 0, 0);
     this._pointLight = pointLight;
     this._scene.add(pointLight);
