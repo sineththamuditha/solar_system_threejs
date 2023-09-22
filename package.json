@@ -1,0 +1,25 @@
+{
+  "name": "solar_system_threejs",
+  "version": "1.0.0",
+  "description": "Solar system simulation using THREE.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sineththamuditha/solar_system_threejs.git"
+  },
+  "author": "P V G S Thamudiths",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sineththamuditha/solar_system_threejs/issues"
+  },
+  "homepage": "https://github.com/sineththamuditha/solar_system_threejs#readme",
+  "dependencies": {
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
