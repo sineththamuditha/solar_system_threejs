@@ -26,7 +26,7 @@ class sun extends celestialBody {
     innerSphere.position.set(0, 0, 0);
 
     const texture = new THREE.TextureLoader().load(
-      "./components/textures/Sun/8k_sun.jpg"
+      "./components/textures/Sun/sun_texture.jpg"
     );
     const outerMaterial = new THREE.MeshBasicMaterial({
       map: texture,
@@ -93,10 +93,10 @@ class sun extends celestialBody {
     const textureLoader = new THREE.TextureLoader();
 
     const textureFlare0 = textureLoader.load(
-      "./components/textures/Sun/SolarFlare/lensflare0.png"
+      "./components/textures/Sun/SolarFlare/lensflare_0.png"
     );
     const textureFlare3 = textureLoader.load(
-      "./components/textures/Sun/SolarFlare/lensflare3.png"
+      "./components/textures/Sun/SolarFlare/lensflare_1.png"
     );
 
     const lensflare = new Lensflare();
