@@ -15,7 +15,6 @@ import {
 
 import { OrbitControls } from "./examples/jsm/controls/OrbitControls.js";
 import { OBJLoader } from "./examples/jsm/loaders/OBJLoader.js";
-import { GLTFLoader } from "./examples/jsm/loaders/GLTFLoader.js";
 
 class App {
   _renderer = null;
